@@ -1,0 +1,782 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    max-width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.Cross-Button {
+    background-color: green;
+    border-radius: 50%;
+    display: inline;
+    position: absolute;
+    top: 8px;
+    right: 35px;
+    padding: 3px 7px;
+    cursor: pointer;
+}
+
+.top-bar-img img:hover {
+    cursor: pointer;
+}
+
+.cross-img {
+    width: 10px;
+    min-height: 10px;
+    box-sizing: border-box;
+}
+
+.para1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.Green {
+    color: #1b7e4e;
+    text-decoration: underline;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-msg {
+    width: 100%;
+    padding: 13px;
+    padding-inline: 20px;
+}
+
+.top-bar {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #10372B;
+    background-image: url('/SlicingData/pattern-bg.png');
+    min-height: 28px;
+}
+
+.burger {
+    display: none;
+}
+
+.top-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-img img {
+    width: 120px;
+    min-height: 28px;
+}
+
+.top-buttons {
+    transform: skew(-25deg);
+    display: flex;
+    font-weight: 500;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.btn-first {
+    padding: 5px 22px;
+    background-color: #2A8347;
+    background-image: url(/SlicingData/pattern-bg.png);
+    font-family: 'Oswald',sans-serif;
+    width: 130px;
+    min-height: 35px;
+}
+
+.btn-second {
+    padding: 5px 32px;
+    background-color: #2A8347;
+    background-image: url(/SlicingData/pattern-bg.png);
+    margin-left: 10px;
+    font-family: 'Oswald',sans-serif;
+    word-spacing: 2px;
+    width: 126px;
+    min-height: 35px;
+}
+.top-buttons a {
+    color: white;
+}
+
+.top-buttons p {
+    transform: skew(20deg);
+}
+
+.nav-bar {
+    position: relative;
+    background-color: #155938;
+    background-image: url(/SlicingData/pattern-bg.png);
+    min-height: 40px;
+    padding: 1px 45px;
+    justify-content: center;
+}
+  
+.list li {
+    display: inline-block;
+}
+  
+.list a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    transform: skew(-20deg);
+    font-family: 'Oswald',sans-serif;
+    word-spacing: 2px;
+}
+
+.list p {
+    transform: skew(20deg);
+}
+  
+.list a:hover {
+    background-color: #2A8347;
+}
+.active{
+    background-color: #2A8347;
+}
+
+.Menu-flex {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.searchIcon {
+    margin-left: 360px;
+    background-color: #10372B;
+    background-image: url(/SlicingData/pattern-bg.png);
+    padding: 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    min-height: 20px;
+    flex-direction: row;
+}
+
+.searchclass {
+    font-weight: 500;
+    font-size: large;
+    color:white;
+    width: 80%;
+    min-height: 75%;
+}
+
+.searchIcon input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+}
+
+.search-img {
+    margin-left: 7px;
+    margin-top: 2px;
+}
+
+.HomePage-topline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HP-LineOne{
+    background-color: #2A8347;
+    background-image: url(/SlicingData/pattern-bg.png);
+    display: inline-block;
+    width: 68%;
+    min-height: 77px;
+    transform: skew(-20deg);
+    color: white;
+    position: relative;
+    right: 17px;
+}
+.HP-LineOne h1 {
+    position: relative;
+    left: 120px;
+    top: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    transform: skew(20deg);
+}
+
+.HP-LineTwo {
+    background-color: white;
+    width: 36%;
+    min-height: 77px;
+    display: flex;
+    justify-content: center;
+}
+
+.HP-LineTwo p {
+    color: #2A8347;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+.HP-LineTwo img {
+    width: 170px;
+    height: 25px;
+    position: relative;
+    top: 40px;
+    right: 130px;;
+}
+
+/* Main Hero Starts here */
+
+
+.Main-heroA {
+    width: 100%;
+    min-height: 430px;
+    position: relative;
+    background-image: url("/SlicingData/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.Main-heroA::after {
+    content: '';
+    background-color: #055C4C;
+    background-image: url(/SlicingData/pattern-bg.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+
+}
+
+
+
+.TextSide {
+    color: white;
+}
+
+.TextSide h1 {
+    font-family: 'oswald',sans-serif;
+    word-spacing: 4px;
+    font-weight: 500;
+}
+
+.hero-backPattern {
+    display: flex;
+    padding: 79px 128px;
+    justify-content: space-between;
+    gap: 300px;
+    align-items: center;
+}
+
+.TextSide pre {
+    font-family: 'oswald',sans-serif;
+    word-spacing: 2px;
+    font-size: small;
+}
+
+.ShoeSide {
+    background-repeat: no-repeat;
+    background-image: url(/SlicingData/video-thumbnail-img.png);
+    width: 280px;
+    min-height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.play-icon img {
+    background-color: #055C4C;
+    width: 60px !important;
+    min-height: 60px !important;
+    border-radius: 50%;
+    opacity: 0.8;
+    padding: 7px 15px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.Main-heroA .owl-nav {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.Main-heroA .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+	Width: 54px;
+	min-height: 68px;
+}
+
+.Main-heroA .owl-nav .owl-next {
+	position: absolute;
+	right: 0;
+	Width: 54px;
+	min-height: 68px;
+}
+
+.Main-heroA .owl-dots {  
+    position: absolute;
+    margin-left: 530px;
+    top: 380px;
+}
+
+.Main-heroA .owl-theme .owl-dots .owl-dot span { 
+    border-radius: 0%;
+    width: 20px;
+    height: 7px;
+    opacity: 0.7;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: none;
+}
+
+.BundleofComponents {
+    background-color: #10372B;
+    background-image: url("/SlicingData/pattern-bg.png");
+}
+
+.BundleFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LeftBundle {
+    
+    width: 75%;
+    padding: 10px 115px;
+}
+
+.Slider img {
+    width: 140px !important;
+    height: 130px !important;
+    margin: 35px 12px;
+    border: 5px solid #94a8a434;
+}
+
+.RightBundle {
+    width: 24%;
+}
+
+.ImgBundle .owl-nav {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.ImgBundle .owl-nav .owl-prev {
+    position: absolute;
+    right: 99%;
+    top: 5px;
+}
+
+.ImgBundle .owl-nav .owl-next {
+    position: absolute;
+    left: 625px;
+}
+
+.ImgBundle .owl-dots {
+    position: absolute;
+    left: 44%;
+    bottom: 0%;
+}
+
+.owl-theme .owl-dots .owl-dot span { 
+    border-radius: 0%;
+    width: 11px;
+    height: 4px;
+    opacity: 0.9;
+    margin: 5px 4px;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    border: none;
+    padding: 0!important;
+    cursor: pointer;
+}
+
+.hrEdit {
+    width: 100%; 
+    margin: 20px 2px;
+}    
+
+.Main-Cards {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.Single-Card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.Single-Card img{
+    width: 95%;
+    min-height: 100px;
+}
+
+.Single-Card h1 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    padding: 12px 5px;
+}
+
+.Single-Card p {
+    color: #e4e4e4e6;
+    font-family: 'Oswald', sans-serif;
+    font-size: 9px;
+    font-weight: 550;
+    padding: 0px 7px;
+    word-spacing: 1.7px;
+    line-height: 14px;
+}
+
+.CardText {
+    background-color: #2A8347;
+    width: 95%;
+    min-height: 110px;
+}
+
+.ReadMore {
+    color: white;
+    background-color: #155938;
+    background-image: url(/SlicingData/pattern-bg.png);
+    width:95%;
+    min-height: 27px;
+}
+
+.ReadMore:hover {
+    background-color: #2A8347;
+}
+
+.ReadMore h2 {
+    font-family: Oswald,sans-serif;
+    font-size: medium;
+    padding: 4px 60px;
+}
+
+.TwoBlocks {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.FirstBlock {
+    display: flex;
+    background-color: #2A8347;
+    background-image: url("/SlicingData/pattern-bg.png");
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+.FirstBlock:hover {
+    background-color: #04954f;
+    background-image: url("/SlicingData/pattern-bg.png");
+}
+
+.FirstBlock img {
+    width: 65%;
+    min-height: 125px;
+    clip-path: polygon(0 0, 95% 0%, 75% 100%, 0% 100%);
+}
+
+.RightFB {
+    min-height: 60px;
+    padding: 20px 20px;
+    word-spacing: 3px;
+}
+
+.RightFB h1 {
+
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    padding: 12px 0px;
+}
+
+.RightFB p {
+    color: #e4e4e4e6;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+    padding: 0px 7px;
+    word-spacing: 1.7px;
+    line-height: 14px;
+}
+
+.SecondBlock {
+    display: flex;
+    background-color: #155938;
+    background-image: url("/SlicingData/pattern-bg.png");
+    width: 100%;
+}
+
+.SecondBlock:hover {
+    background-color: #04954f;
+    background-image: url("/SlicingData/pattern-bg.png");
+}
+
+.SecondBlock img {
+    width: 55%;
+    min-height: 125px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+}
+
+.RightSB {
+    min-height: 60px;
+    padding: 20px 55px;
+    word-spacing: 3px;
+}
+.RightSB h1 {
+
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    padding: 12px 5px;
+}
+
+.RightSB p {
+    color: #e4e4e4e6;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+    padding: 0px 7px;
+    word-spacing: 1.7px;
+    line-height: 14px;
+}
+
+.RightBundle {
+    width: 25%;
+    padding: 43px 0px;
+}
+
+.ASide {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    counter-reset: section;
+    position: relative;
+}
+
+
+
+.RB-Event {
+    background-color: #155938;
+    background-image: url("/SlicingData/pattern-bg.png");
+    width: 80%;
+    min-height: 30px;
+}
+
+.RB-Event h1 {
+    color: white;
+    font-family: 'Oswald',sans-serif;
+    font-size: large;
+    padding: 6px 15px;
+}
+
+.RB-Links {
+    background-color: #2A8347;
+    background-image: url("/SlicingData/pattern-bg.png");
+    width: 80%;
+    min-height: 220px;
+}
+
+.Links-Content {
+    display: flex;
+    padding: 10px 43px;
+}
+
+.Link-No {
+    background-color: white;
+    width: 20%;
+}
+
+.Link-line {
+    margin-left: 10px;
+}
+
+.Link-line a::before {
+    counter-increment: section;
+    content: " " counter(section) " ";
+    background-color: white;
+    color: #04954f;
+    padding: 10px 12px;
+    position: absolute;
+    left: 20px;
+}
+
+.Link-No h1 {
+    color: #2A8347;
+    padding: 0px 12px;
+}
+
+.Link-line h5 {
+    text-decoration: underline;
+    font-family: 'Oswald',sans-serif;
+}
+
+.Link-line p {
+    color: white;
+    font-family: 'Oswald',sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #155938;
+    background-image: url("/SlicingData/pattern-bg.png");
+}
+
+.form h3 {
+    color: white;
+    font-family: 'Oswald',sans-serif;
+    word-spacing: 3px;
+    font-size: x-large;
+    padding: 20px 230px;
+}
+
+label {
+    color: white;
+    font-family: 'oswald',sans-serif;
+}
+
+.name-mail {
+    display: flex;
+    padding: 1px 150px;
+}
+
+.name, .email {
+    padding: 1px 10px;
+}
+
+.country-state {
+    display: flex;
+    padding: 5px 150px;
+}
+
+.country, .state {
+    padding: 1px 10px;
+}
+
+.firstfour {
+    width: 170px;
+    min-height: 27px;
+    outline: none;
+}
+
+.form-gender {
+    padding: 5px 160px;
+}
+
+.Gender input[type="radio"] {
+    width: 17px;
+    min-height: 17px;
+    accent-color: #155938;
+}
+
+.form-button input {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'oswald',sans-serif;
+}
+
+.form-button {
+    background-color: #10372B;
+    background-image: url("/SlicingData/pattern-bg.png");
+    width: 140px;
+    min-height: 40px;
+    padding: 10px 50px;
+}
+
+.form-button:hover {
+    background-color: #2A8347;
+    cursor: pointer;
+}
+
+.btn-padding {
+    padding: 15px 270px;
+}
+
+#message {
+    padding: 10px 10px;
+    outline: none;
+}
+
+.footer {
+    background-color: #10372B;
+    background-image: url("/SlicingData/pattern-bg.png");
+}
+
+.footer-links {
+    padding: 30px 350px;
+}
+
+.footer-links p {
+    color: white;
+    font-family: 'oswald',sans-serif;
+    word-spacing: 3px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-Icons {
+    padding: 1px 500px;
+    
+} 
+
+.footer-Icons a {
+    margin-right: 10px;
+}
+
+.footer-Icons img:hover {
+    opacity: 0.75;
+}
+
+.footer-copyright {
+    padding: 25px 485px;
+}
+
+.footer-copyright p {
+    color: white;
+}
